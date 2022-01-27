@@ -3,7 +3,7 @@ En un estacionamiento cobran $/. 1.500 por hora o fracción. Diseñe un algoritm
 determine cuánto debe pagar un cliente por el estacionamiento de su vehículo, 
 conociendo el tiempo de estacionamiento en horas y minutos.
 */
-var prompt = require('prompt');
+const prompt = require('prompt');
 
 var schema = {
     properties: {

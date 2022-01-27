@@ -8,7 +8,7 @@
 9-10: Sobresaliente
 */
 //Declarar el prompt objeto
-var prompt = require('prompt');
+const prompt = require('prompt');
 
 //Declarar el schema, para que muestre Ingrese Su su calificacion en la captura para la variable 
 //'calificacion' la cual es declarada como tipo numerica

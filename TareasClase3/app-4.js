@@ -1,5 +1,5 @@
 //4. Diseñe un algoritmo que determine si un número es o no es, par positivo.
-var prompt = require('prompt');
+const prompt = require('prompt');
 
 var schema = {
     properties: {
@@ -9,8 +9,6 @@ var schema = {
       }
     }
   };
-
-
 prompt.get(schema, function(err, result){
 
     if (result.var1%2 == 0 && result.var1 >1){
@@ -21,6 +19,4 @@ prompt.get(schema, function(err, result){
     else {
         console.log('El numero no es par o es negativo')
     }
-    
- 
 })
