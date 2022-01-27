@@ -22,8 +22,8 @@ var schema = {
 
 prompt.get(schema, function(err, result){
     let calculo
-    let costoparqueo = 1500
-    calculo = ((result.horas * costoparqueo) + ((result.minutos/60) * costoparqueo))
+    let costoparqueoh = 1500
+    calculo = ((result.horas * costoparqueoh) + ((result.minutos/60) * costoparqueoh))
     console.log('El totar a pagar por uso del paque es ' + calculo)
  
 })
