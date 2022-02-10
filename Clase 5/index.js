@@ -14,13 +14,10 @@ app.use(express.static('assets'))
 
 // Funcion de respuesta 
 function respuesta(request, response) {
-    response.send('Hellow World')
-    request.links({
-        next: 'http://demo.com?page=2',
-        middle: 'http://demo.com?page=4',
-        last: 'http://demo.com?page=6'
-    });
-    console.log(request.get('link'));
+    response.send('<!DOCTYPE html><html><head><title></title><meta charset="UTF-8"></head><body><p><a href="http://localhost:3000/index">Vista HTML</a></p><p><a href="http://localhost:3000/tarjeta">Tarjeta</a></p> </body></html>')
+
+   // response.sendFile(path.join(__dirname, '/vistas/index.html'));
+    
 }
 
 
